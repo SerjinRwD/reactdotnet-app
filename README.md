@@ -1,30 +1,30 @@
-Реализация туториала https://reactjs.net/tutorials/aspnetcore.html с небольшими правками.
+Р РµР°Р»РёР·Р°С†РёСЏ С‚СѓС‚РѕСЂРёР°Р»Р° https://reactjs.net/tutorials/aspnetcore.html СЃ РЅРµР±РѕР»СЊС€РёРјРё РїСЂР°РІРєР°РјРё.
 
-*Что тащит Nuget*
-Для компиляции jsx
+*Р§С‚Рѕ С‚Р°С‰РёС‚ Nuget*
+Р”Р»СЏ РєРѕРјРїРёР»СЏС†РёРё jsx
 React.AspNet
 JavaScriptEngineSwitcher.ChakraCore
 JavaScriptEngineSwitcher.ChakraCore.Native.linux-x64
 JavaScriptEngineSwitcher.ChakraCore.Native.win-x64
 JavaScriptEngineSwitcher.Extensions.MsDependencyInject
-Подробнее здесь: https://reactjs.net/
+РџРѕРґСЂРѕР±РЅРµРµ Р·РґРµСЃСЊ: https://reactjs.net/
 
-Для генерации путей Asp.Net контроллеров в JavaScript
+Р”Р»СЏ РіРµРЅРµСЂР°С†РёРё РїСѓС‚РµР№ Asp.Net РєРѕРЅС‚СЂРѕР»Р»РµСЂРѕРІ РІ JavaScript
 RouteJs.AspNet
-Подробнее здесь: https://github.com/Daniel15/RouteJs
-(тут давно не было комитов, но проект не заброшен -- пока нечего добавлять)
+РџРѕРґСЂРѕР±РЅРµРµ Р·РґРµСЃСЊ: https://github.com/Daniel15/RouteJs
+(С‚СѓС‚ РґР°РІРЅРѕ РЅРµ Р±С‹Р»Рѕ РєРѕРјРёС‚РѕРІ, РЅРѕ РїСЂРѕРµРєС‚ РЅРµ Р·Р°Р±СЂРѕС€РµРЅ -- РїРѕРєР° РЅРµС‡РµРіРѕ РґРѕР±Р°РІР»СЏС‚СЊ)
 
-*Что тащит фронт*
-Легковесный CSS-фрейморк для разработки отзывчивых веб интерфейсов с элементами material-дизайна
+*Р§С‚Рѕ С‚Р°С‰РёС‚ С„СЂРѕРЅС‚*
+Р›РµРіРєРѕРІРµСЃРЅС‹Р№ CSS-С„СЂРµР№РјРѕСЂРє РґР»СЏ СЂР°Р·СЂР°Р±РѕС‚РєРё РѕС‚Р·С‹РІС‡РёРІС‹С… РІРµР± РёРЅС‚РµСЂС„РµР№СЃРѕРІ СЃ СЌР»РµРјРµРЅС‚Р°РјРё material-РґРёР·Р°Р№РЅР°
 https://www.w3schools.com/w3css/4/w3.css
 
-markdown рендерилка (используется в туториале для форматирования комментариев)
+markdown СЂРµРЅРґРµСЂРёР»РєР° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ С‚СѓС‚РѕСЂРёР°Р»Рµ РґР»СЏ С„РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёСЏ РєРѕРјРјРµРЅС‚Р°СЂРёРµРІ)
 https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js
 
 ReactJS
-_development_-окружение
+_development_-РѕРєСЂСѓР¶РµРЅРёРµ
 https://cdnjs.cloudflare.com/ajax/libs/react/16.8.0/umd/react.development.js
 https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.0/umd/react-dom.development.js
-_production_-окружение
+_production_-РѕРєСЂСѓР¶РµРЅРёРµ
 https://unpkg.com/react@16/umd/react.production.min.js
 https://unpkg.com/react-dom@16/umd/react-dom.production.min.js
