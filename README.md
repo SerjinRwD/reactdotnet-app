@@ -24,9 +24,11 @@ https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js
 ReactJS
 
 _development_-окружение
+
 https://cdnjs.cloudflare.com/ajax/libs/react/16.8.0/umd/react.development.js
 https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.0/umd/react-dom.development.js
 
 _production_-окружение
+
 https://unpkg.com/react@16/umd/react.production.min.js
 https://unpkg.com/react-dom@16/umd/react-dom.production.min.js
